@@ -7,9 +7,9 @@ using Microsoft.EntityFrameworkCore;
 
 namespace AppIocDemo.DataSource.EF;
 
-public partial class ApiIocContext : DbContext
+public partial class AppIocContext : DbContext
 {
-    public ApiIocContext(DbContextOptions<ApiIocContext> options)
+    public AppIocContext(DbContextOptions<AppIocContext> options)
         : base(options)
     {
     }
