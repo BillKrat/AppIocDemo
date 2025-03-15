@@ -1,0 +1,30 @@
+<Project Sdk="Microsoft.NET.Sdk.Web">
+
+  <PropertyGroup>
+    <TargetFramework>net8.0</TargetFramework>
+    <Nullable>enable</Nullable>
+    <ImplicitUsings>enable</ImplicitUsings>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <PackageReference Include="Microsoft.EntityFrameworkCore.Sqlite" Version="8.0.12" />
+    <PackageReference Include="Swashbuckle.AspNetCore" Version="6.6.2" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <Folder Include="DataSource\EF\" />
+    <Folder Include="DataSource\EDM\" />
+    <Folder Include="DataSource\Test\" />
+    <Folder Include="LayerBusiness\Workflows\" />
+    <Folder Include="LayerData\ServiceAgents\" />
+    <Folder Include="LayerData\Utilities\" />
+    <Folder Include="LayerPresentation\UiComponents\" />
+    <Folder Include="LayerPresentation\UiProcessComponents\" />
+    <Folder Include="Models\" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <None Include="efpt.config.json.user" />
+  </ItemGroup>
+
+</Project>
