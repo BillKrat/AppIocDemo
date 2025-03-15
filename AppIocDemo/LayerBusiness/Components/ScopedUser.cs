@@ -1,4 +1,5 @@
 ﻿using AppIocDemo.Interfaces;
+using AppIocDemo.Models;
 
 namespace AppIocDemo.LayerBusiness.Components
 {
@@ -8,7 +9,7 @@ namespace AppIocDemo.LayerBusiness.Components
         {
             config.State = state;
         }
-        public string GetCustomerList(string? country = null)
+        public List<Customer> GetCustomerList(string? country = null)
         {
             return facade.GetCustomerList();
         }

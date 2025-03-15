@@ -17,9 +17,7 @@
   </ItemGroup>
 
   <ItemGroup>
-    <Folder Include="DataSource\EF\" />
     <Folder Include="DataSource\EDM\" />
-    <Folder Include="DataSource\Test\" />
     <Folder Include="LayerBusiness\Workflows\" />
     <Folder Include="LayerData\ServiceAgents\" />
     <Folder Include="LayerData\Utilities\" />

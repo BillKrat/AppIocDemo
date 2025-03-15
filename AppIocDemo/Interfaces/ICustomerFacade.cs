@@ -1,7 +1,9 @@
-﻿namespace AppIocDemo.Interfaces
+﻿using AppIocDemo.Models;
+
+namespace AppIocDemo.Interfaces
 {
     public interface ICustomerFacade
     {
-        string GetCustomerList();
+        List<Customer> GetCustomerList();
     }
 }
