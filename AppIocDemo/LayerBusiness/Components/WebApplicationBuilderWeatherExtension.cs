@@ -1,8 +1,7 @@
-﻿using AppIocDemo.LayerBusiness.Components;
-using AppIocDemo.LayerBusiness.Facades;
+﻿using AppIocDemo.LayerBusiness.Facades;
 using AppIocDemo.LayerData.AccessComponents;
 
-namespace AppIocDemo.DataSource.Test
+namespace AppIocDemo.LayerBusiness.Components
 {
     public static class WebApplicationBuilderWeatherExtension
     {

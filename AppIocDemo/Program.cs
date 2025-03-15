@@ -1,6 +1,6 @@
 
 using AppIocDemo.DataSource.EF;
-using AppIocDemo.DataSource.Test;
+using AppIocDemo.LayerBusiness.Components;
 
 namespace AppIocDemo
 {
