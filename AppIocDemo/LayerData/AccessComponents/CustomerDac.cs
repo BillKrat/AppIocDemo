@@ -4,7 +4,8 @@ using AppIocDemo.Models;
 
 namespace AppIocDemo.LayerData.AccessComponents
 {
-    public class CustomerDac(AppIocContext DataContext, IConfig config) : ICustomerDac
+    public class CustomerDac(AppIocContext DataContext, IConfig config)
+        : ICustomerDac
     {
         public List<Customer> GetCustomers()
         {

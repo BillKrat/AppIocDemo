@@ -9,8 +9,6 @@ namespace AppIocDemo.LayerData.AccessComponents
             "Freezing", "Bracing", "Chilly", "Cool", "Mild", "Warm", "Balmy", "Hot", "Sweltering", "Scorching"
         };
 
-        private readonly ILogger<WeatherDac> _logger;
-
         public IEnumerable<WeatherForecast> GetWeatherData()
         {
             return Enumerable.Range(1, 5).Select(index => new WeatherForecast
@@ -21,6 +19,5 @@ namespace AppIocDemo.LayerData.AccessComponents
             })
             .ToArray();
         }
-
     }
 }

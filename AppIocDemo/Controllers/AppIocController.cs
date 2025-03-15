@@ -8,7 +8,6 @@ namespace AppIocDemo.Controllers
     [Route("[controller]")]
     public class AppIocController : ControllerBase
     {
-
         ICustomerFacade _facade;
         public AppIocController(ICustomerFacade facade)
         {
