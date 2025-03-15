@@ -1,4 +1,6 @@
 
+using AppIocDemo.DataSource.EF;
+
 namespace AppIocDemo
 {
     public class Program
@@ -13,6 +15,9 @@ namespace AppIocDemo
             // Learn more about configuring Swagger/OpenAPI at https://aka.ms/aspnetcore/swashbuckle
             builder.Services.AddEndpointsApiExplorer();
             builder.Services.AddSwaggerGen();
+
+            // dotnet add package Microsoft.EntityFrameworkCore.Sqlite
+            builder.ConfigureSQLiteForEF();
 
             var app = builder.Build();
 

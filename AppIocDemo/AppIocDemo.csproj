@@ -12,7 +12,7 @@
   </ItemGroup>
 
   <ItemGroup>
-    <PackageReference Include="Microsoft.EntityFrameworkCore.Sqlite" Version="8.0.12" />
+    <PackageReference Include="Microsoft.EntityFrameworkCore.Sqlite" Version="9.0.3" />
     <PackageReference Include="Swashbuckle.AspNetCore" Version="6.6.2" />
   </ItemGroup>
 
@@ -23,13 +23,16 @@
     <Folder Include="LayerBusiness\Workflows\" />
     <Folder Include="LayerData\ServiceAgents\" />
     <Folder Include="LayerData\Utilities\" />
-    <Folder Include="LayerPresentation\UiComponents\" />
-    <Folder Include="LayerPresentation\UiProcessComponents\" />
-    <Folder Include="Models\" />
   </ItemGroup>
 
   <ItemGroup>
     <None Include="efpt.config.json.user" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <None Update="DataSource\SQLite\ChinookDemoDb.sqlite">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </None>
   </ItemGroup>
 
 </Project>

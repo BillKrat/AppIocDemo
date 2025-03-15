@@ -1,3 +1,5 @@
+using AppIocDemo.DataSource.EF;
+using AppIocDemo.LayerPresentation.UiComponents;
 using Microsoft.AspNetCore.Mvc;
 
 namespace AppIocDemo.Controllers
@@ -11,16 +13,24 @@ namespace AppIocDemo.Controllers
             "Freezing", "Bracing", "Chilly", "Cool", "Mild", "Warm", "Balmy", "Hot", "Sweltering", "Scorching"
         };
 
+        private AppIocContext _context;
         private readonly ILogger<WeatherForecastController> _logger;
 
-        public WeatherForecastController(ILogger<WeatherForecastController> logger)
+        public WeatherForecastController(
+            ILogger<WeatherForecastController> logger,
+            AppIocContext context
+            )
         {
             _logger = logger;
+            _context = context;
         }
 
         [HttpGet(Name = "GetWeatherForecast")]
         public IEnumerable<WeatherForecast> Get()
         {
+
+            var list = _context.Customers.ToList();
+
             return Enumerable.Range(1, 5).Select(index => new WeatherForecast
             {
                 Date = DateOnly.FromDateTime(DateTime.Now.AddDays(index)),

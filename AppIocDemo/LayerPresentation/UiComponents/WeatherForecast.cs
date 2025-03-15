@@ -1,4 +1,4 @@
-namespace AppIocDemo
+namespace AppIocDemo.LayerPresentation.UiComponents
 {
     public class WeatherForecast
     {
