@@ -1,7 +1,4 @@
-
-using AppIocDemo.DataSource.EF;
 using AppIocDemo.LayerBusiness.Components;
-using AppIocDemo.Startup;
 
 namespace AppIocDemo
 {
@@ -18,12 +15,7 @@ namespace AppIocDemo
             builder.Services.AddEndpointsApiExplorer();
             builder.Services.AddSwaggerGen();
 
-            // Added the following package and extension to configure SQLite for EF
-            // dotnet add package Microsoft.EntityFrameworkCore.Sqlite
-            builder.ConfigureSQLiteForEF();
-
             builder.ConfigureWeather();
-            builder.ConfigureCustomers();
 
             var app = builder.Build();
 

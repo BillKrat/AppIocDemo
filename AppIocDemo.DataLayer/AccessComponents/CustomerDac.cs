@@ -1,11 +1,11 @@
 ﻿using AOTE.Framework.CrossCutting.Interfaces;
 using AppIocDemo.DataSource.EF;
 using AppIocDemo.Interfaces;
-using AppIocDemo.Models;
+using AppIocDemo.Models.Entities;
 
 namespace AppIocDemo.LayerData.AccessComponents
 {
-    public class CustomerDac(AppIocContext DataContext, IConfig config)
+    public class CustomerDac(AppIocContext DataContext, IUserConfig config)
         : ICustomerDac
     {
         public List<Customer> GetCustomers()

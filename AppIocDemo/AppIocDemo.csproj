@@ -7,6 +7,17 @@
   </PropertyGroup>
 
   <ItemGroup>
+    <Compile Remove="LayerBusiness\**" />
+    <Compile Remove="LayerData\**" />
+    <Content Remove="LayerBusiness\**" />
+    <Content Remove="LayerData\**" />
+    <EmbeddedResource Remove="LayerBusiness\**" />
+    <EmbeddedResource Remove="LayerData\**" />
+    <None Remove="LayerBusiness\**" />
+    <None Remove="LayerData\**" />
+  </ItemGroup>
+
+  <ItemGroup>
     <None Remove="._.DS_Store" />
     <None Remove="DataSource\SQLite\._ChinookDemoDb.sqlite" />
   </ItemGroup>
@@ -17,15 +28,19 @@
   </ItemGroup>
 
   <ItemGroup>
-    <Folder Include="DataSource\EDM\" />
-    <Folder Include="DataSource\Test\" />
-    <Folder Include="LayerBusiness\Workflows\" />
-    <Folder Include="LayerData\ServiceAgents\" />
-    <Folder Include="LayerData\Utilities\" />
+    <None Include="efpt.config.json.user" />
   </ItemGroup>
 
   <ItemGroup>
-    <None Include="efpt.config.json.user" />
+    <ProjectReference Include="..\AOTE.AppIocDemo.Model\AppIocDemo.Model.csproj" />
+    <ProjectReference Include="..\AOTE.Framework.BusinessLayer\AOTE.Framework.BusinessLayer.csproj" />
+    <ProjectReference Include="..\AOTE.Framework.CrossCutting\AOTE.Framework.CrossCutting.csproj" />
+    <ProjectReference Include="..\AOTE.Framework.DataLayer\AOTE.Framework.DataLayer.csproj" />
+    <ProjectReference Include="..\AppIocDemo.BusinessLayer\AppIocDemo.BusinessLayer.csproj" />
+    <ProjectReference Include="..\AppIocDemo.DataLayer\AppIocDemo.DataLayer.csproj" />
+    <ProjectReference Include="..\WeatherForeCastDemo.BusinessLayer\WeatherForeCastDemo.BusinessLayer.csproj" />
+    <ProjectReference Include="..\WeatherForecastDemo.DataLayer\WeatherForecastDemo.DataLayer.csproj" />
+    <ProjectReference Include="..\WeatherForecastDemo.Model\WeatherForecastDemo.Model.csproj" />
   </ItemGroup>
 
   <ItemGroup>

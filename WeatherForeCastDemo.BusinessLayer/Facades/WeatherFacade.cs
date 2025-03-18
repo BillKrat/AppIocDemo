@@ -1,5 +1,5 @@
 ﻿using AppIocDemo.Interfaces;
-using AppIocDemo.Models;
+using AppIocDemo.Models.Entities;
 
 namespace AppIocDemo.LayerBusiness.Facades
 {

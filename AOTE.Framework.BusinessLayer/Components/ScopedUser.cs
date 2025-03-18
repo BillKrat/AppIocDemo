@@ -1,10 +1,10 @@
 ﻿using AOTE.Framework.CrossCutting.Interfaces;
 using AppIocDemo.Interfaces;
-using AppIocDemo.Models;
+using AppIocDemo.Models.Entities;
 
 namespace AppIocDemo.LayerBusiness.Components
 {
-    public class ScopedUser(ICustomerFacade facade, IConfig config)
+    public class ScopedUser(ICustomerFacade facade, IUserConfig config)
     {
         public void SetState(string state)
         {
