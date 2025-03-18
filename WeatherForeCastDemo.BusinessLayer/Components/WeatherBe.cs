@@ -1,8 +1,7 @@
-﻿using AppIocDemo.Interfaces;
-using AppIocDemo.Models;
-using AppIocDemo.Models.Entities;
+﻿using AppIocDemo.Models.Entities;
+using WeatherForecastDemo.Model.Interfaces;
 
-namespace AppIocDemo.LayerBusiness.Entities
+namespace WeatherForeCastDemo.BusinessLayer.Components
 {
     public class WeatherBe(IWeatherDac dac) : IWeatherBe
     {

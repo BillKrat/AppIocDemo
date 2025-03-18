@@ -1,6 +1,6 @@
-using AppIocDemo.LayerBusiness.Components;
+using WeatherForecastDemo.Startup;
 
-namespace AppIocDemo
+namespace WeatherForecastDemo
 {
     public class Program
     {

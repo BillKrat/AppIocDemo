@@ -1,6 +1,6 @@
 ﻿using AppIocDemo.Models.Entities;
 
-namespace AppIocDemo.Interfaces
+namespace WeatherForecastDemo.Model.Interfaces
 {
     public interface IWeatherDac
     {

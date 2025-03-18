@@ -1,5 +1,5 @@
-﻿using AppIocDemo.Interfaces;
-using AppIocDemo.Models.Entities;
+﻿using AppIocDemo.Models.Entities;
+using WeatherForecastDemo.Model.Interfaces;
 
 namespace WeatherForecastDemo.Test.Mocks
 {

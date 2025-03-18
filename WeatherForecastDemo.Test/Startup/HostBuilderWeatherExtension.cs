@@ -1,9 +1,9 @@
-﻿using AppIocDemo.Interfaces;
-using AppIocDemo.LayerBusiness.Entities;
-using AppIocDemo.LayerBusiness.Facades;
-using Microsoft.Extensions.DependencyInjection;
+﻿using Microsoft.Extensions.DependencyInjection;
 using Microsoft.Extensions.Hosting;
+using WeatherForecastDemo.Model.Interfaces;
 using WeatherForecastDemo.Test.Mocks;
+using WeatherForeCastDemo.BusinessLayer.Components;
+using WeatherForeCastDemo.BusinessLayer.Facades;
 
 namespace WeatherForecastDemo.Test.Startup
 {

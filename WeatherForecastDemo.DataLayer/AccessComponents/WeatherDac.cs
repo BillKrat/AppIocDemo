@@ -1,7 +1,7 @@
-﻿using AppIocDemo.Interfaces;
-using AppIocDemo.Models.Entities;
+﻿using AppIocDemo.Models.Entities;
+using WeatherForecastDemo.Model.Interfaces;
 
-namespace AppIocDemo.LayerData.AccessComponents
+namespace WeatherForecastDemo.DataLayer.AccessComponents
 {
     public class WeatherDac : IWeatherDac
     {

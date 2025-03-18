@@ -1,9 +1,9 @@
-﻿using AppIocDemo.Interfaces;
-using AppIocDemo.LayerBusiness.Entities;
-using AppIocDemo.LayerBusiness.Facades;
-using AppIocDemo.LayerData.AccessComponents;
+﻿using WeatherForecastDemo.DataLayer.AccessComponents;
+using WeatherForecastDemo.Model.Interfaces;
+using WeatherForeCastDemo.BusinessLayer.Components;
+using WeatherForeCastDemo.BusinessLayer.Facades;
 
-namespace AppIocDemo.LayerBusiness.Components
+namespace WeatherForecastDemo.Startup
 {
     public static class WebAppBuilderWeatherExtension
     {
