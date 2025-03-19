@@ -363,3 +363,4 @@ MigrationBackup/
 FodyWeavers.xsd
 /AppIocDemo/DataSource/SQLite/._ChinookDemoDb.sqlite
 /AppIocDemo/._.DS_Store
+/AOTE.AppIocDemo.Model/DataSource/SQLite/._ChinookDemoDb.sqlite
