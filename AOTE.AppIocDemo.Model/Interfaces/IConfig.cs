@@ -1,4 +1,4 @@
-﻿namespace AOTE.Framework.CrossCutting.Interfaces
+﻿namespace AppIocDemo.Model.Interfaces
 {
     public interface IUserConfig
     {

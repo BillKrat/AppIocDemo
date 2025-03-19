@@ -1,6 +1,6 @@
-﻿using AppIocDemo.Models.Entities;
+﻿using AppIocDemo.Model.Entities;
 
-namespace AppIocDemo.Interfaces
+namespace AppIocDemo.Model.Interfaces
 {
     public interface ICustomerDac
     {

@@ -1,5 +1,5 @@
-﻿using AppIocDemo.Interfaces;
-using AppIocDemo.Models.Entities;
+﻿using AppIocDemo.Model.Entities;
+using AppIocDemo.Model.Interfaces;
 using Microsoft.AspNetCore.Mvc;
 
 namespace AppIocDemo.Controllers

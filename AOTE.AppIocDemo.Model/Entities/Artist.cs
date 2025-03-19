@@ -3,8 +3,9 @@
 using System;
 using System.Collections.Generic;
 
-namespace AppIocDemo.Models.Entities;
-public partial class Artist 
+namespace AppIocDemo.Model.Entities;
+
+public partial class Artist
 {
     public int ArtistId { get; set; }
 

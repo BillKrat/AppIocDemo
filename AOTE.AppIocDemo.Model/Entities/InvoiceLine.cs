@@ -3,8 +3,9 @@
 using System;
 using System.Collections.Generic;
 
-namespace AppIocDemo.Models.Entities;
-public partial class InvoiceLine 
+namespace AppIocDemo.Model.Entities;
+
+public partial class InvoiceLine
 {
     public int InvoiceLineId { get; set; }
 

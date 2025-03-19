@@ -3,7 +3,7 @@ using WeatherForecastDemo.Model.Interfaces;
 using WeatherForeCastDemo.BusinessLayer.Components;
 using WeatherForeCastDemo.BusinessLayer.Facades;
 
-namespace AppIocDemo.LayerBusiness.Components
+namespace AppIocDemo.Startup
 {
     public static class WebAppBuilderWeatherExtension
     {

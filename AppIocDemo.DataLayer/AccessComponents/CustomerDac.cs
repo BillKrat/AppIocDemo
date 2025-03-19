@@ -1,9 +1,8 @@
-﻿using AOTE.Framework.CrossCutting.Interfaces;
-using AppIocDemo.DataSource.EF;
-using AppIocDemo.Interfaces;
-using AppIocDemo.Models.Entities;
+﻿using AppIocDemo.Model.Context;
+using AppIocDemo.Model.Entities;
+using AppIocDemo.Model.Interfaces;
 
-namespace AppIocDemo.LayerData.AccessComponents
+namespace AppIocDemo.DataLayer.AccessComponents
 {
     public class CustomerDac(AppIocContext DataContext, IUserConfig config)
         : ICustomerDac

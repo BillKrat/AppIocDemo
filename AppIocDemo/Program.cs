@@ -1,6 +1,3 @@
-
-using AppIocDemo.DataSource.EF;
-using AppIocDemo.LayerBusiness.Components;
 using AppIocDemo.Startup;
 
 namespace AppIocDemo

@@ -1,6 +1,5 @@
-﻿using AOTE.Framework.CrossCutting.Interfaces;
-using AppIocDemo.Interfaces;
-using AppIocDemo.Models.Entities;
+﻿using AppIocDemo.Model.Entities;
+using AppIocDemo.Model.Interfaces;
 
 namespace AppIocDemo.LayerBusiness.Components
 {

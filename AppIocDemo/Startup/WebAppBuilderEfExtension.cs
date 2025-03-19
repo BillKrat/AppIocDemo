@@ -1,4 +1,4 @@
-﻿using AppIocDemo.DataSource.EF;
+﻿using AppIocDemo.Model.Context;
 using Microsoft.EntityFrameworkCore;
 
 namespace AppIocDemo.Startup

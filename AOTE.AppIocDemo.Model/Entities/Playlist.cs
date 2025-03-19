@@ -3,8 +3,9 @@
 using System;
 using System.Collections.Generic;
 
-namespace AppIocDemo.Models.Entities;
-public partial class Playlist 
+namespace AppIocDemo.Model.Entities;
+
+public partial class Playlist
 {
     public int PlaylistId { get; set; }
 

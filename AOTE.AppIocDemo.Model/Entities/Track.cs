@@ -3,8 +3,9 @@
 using System;
 using System.Collections.Generic;
 
-namespace AppIocDemo.Models.Entities;
-public partial class Track 
+namespace AppIocDemo.Model.Entities;
+
+public partial class Track
 {
     public int TrackId { get; set; }
 

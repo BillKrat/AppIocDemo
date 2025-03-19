@@ -1,11 +1,11 @@
-﻿using AOTE.Framework.CrossCutting.Interfaces;
-using AppIocDemo.Interfaces;
+﻿using AppIocDemo.BusinessLayer.Components;
+using AppIocDemo.BusinessLayer.Facades;
+using AppIocDemo.DataLayer.AccessComponents;
 using AppIocDemo.LayerBusiness.Components;
 using AppIocDemo.LayerBusiness.Entities;
-using AppIocDemo.LayerBusiness.Facades;
-using AppIocDemo.LayerData.AccessComponents;
+using AppIocDemo.Model.Interfaces;
 
-namespace AppIocDemo.DataSource.EF
+namespace AppIocDemo.Startup
 {
     public static class WebAppBuilderCustomerExtension
     {

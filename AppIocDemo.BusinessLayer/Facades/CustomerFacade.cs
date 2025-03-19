@@ -1,7 +1,7 @@
-﻿using AppIocDemo.Interfaces;
-using AppIocDemo.Models.Entities;
+﻿using AppIocDemo.Model.Entities;
+using AppIocDemo.Model.Interfaces;
 
-namespace AppIocDemo.LayerBusiness.Facades
+namespace AppIocDemo.BusinessLayer.Facades
 {
     public class CustomerFacade(ICustomerBe be) : ICustomerFacade
     {

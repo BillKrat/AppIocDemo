@@ -3,9 +3,9 @@
 using System;
 using System.Collections.Generic;
 
-namespace AppIocDemo.Models.Entities;
+namespace AppIocDemo.Model.Entities;
 
-public partial class Album 
+public partial class Album
 {
     public int AlbumId { get; set; }
 

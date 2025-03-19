@@ -3,7 +3,8 @@
 using System;
 using System.Collections.Generic;
 
-namespace AppIocDemo.Models.Entities;
+namespace AppIocDemo.Model.Entities;
+
 public partial class MediaType
 {
     public int MediaTypeId { get; set; }

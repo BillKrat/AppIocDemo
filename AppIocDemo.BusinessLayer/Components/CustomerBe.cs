@@ -1,7 +1,7 @@
-﻿using AppIocDemo.Interfaces;
-using AppIocDemo.Models.Entities;
+﻿using AppIocDemo.Model.Entities;
+using AppIocDemo.Model.Interfaces;
 
-namespace AppIocDemo.LayerBusiness.Entities
+namespace AppIocDemo.BusinessLayer.Components
 {
     public class CustomerBe(ICustomerDac dal) : ICustomerBe
     {

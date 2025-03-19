@@ -2,11 +2,10 @@
 #nullable disable
 using System;
 using System.Collections.Generic;
-using AppIocDemo.Models;
-using AppIocDemo.Models.Entities;
+using AppIocDemo.Model.Entities;
 using Microsoft.EntityFrameworkCore;
 
-namespace AppIocDemo.DataSource.EF;
+namespace AppIocDemo.Model.Context;
 
 public partial class AppIocContext : DbContext
 {

@@ -1,4 +1,4 @@
-﻿using AOTE.Framework.CrossCutting.Interfaces;
+﻿using AppIocDemo.Model.Interfaces;
 
 namespace AppIocDemo.LayerBusiness.Entities
 {
