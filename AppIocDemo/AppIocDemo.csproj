@@ -33,7 +33,7 @@
     <ProjectReference Include="..\AOTE.Framework.DataLayer\AOTE.Framework.DataLayer.csproj" />
     <ProjectReference Include="..\AppIocDemo.BusinessLayer\AppIocDemo.BusinessLayer.csproj" />
     <ProjectReference Include="..\AppIocDemo.DataLayer\AppIocDemo.DataLayer.csproj" />
-    <ProjectReference Include="..\WeatherForeCastDemo.BusinessLayer\WeatherForeCastDemo.BusinessLayer.csproj" />
+    <ProjectReference Include="..\WeatherForeCastDemo.BusinessLayer\WeatherForecastDemo.BusinessLayer.csproj" />
     <ProjectReference Include="..\WeatherForecastDemo.DataLayer\WeatherForecastDemo.DataLayer.csproj" />
     <ProjectReference Include="..\WeatherForecastDemo.Model\WeatherForecastDemo.Model.csproj" />
   </ItemGroup>

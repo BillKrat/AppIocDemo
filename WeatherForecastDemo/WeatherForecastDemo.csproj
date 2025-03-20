@@ -14,7 +14,7 @@
     <ProjectReference Include="..\AOTE.Framework.BusinessLayer\AOTE.Framework.BusinessLayer.csproj" />
     <ProjectReference Include="..\AOTE.Framework.CrossCutting\AOTE.Framework.CrossCutting.csproj" />
     <ProjectReference Include="..\AOTE.Framework.DataLayer\AOTE.Framework.DataLayer.csproj" />
-    <ProjectReference Include="..\WeatherForeCastDemo.BusinessLayer\WeatherForeCastDemo.BusinessLayer.csproj" />
+    <ProjectReference Include="..\WeatherForeCastDemo.BusinessLayer\WeatherForecastDemo.BusinessLayer.csproj" />
     <ProjectReference Include="..\WeatherForecastDemo.DataLayer\WeatherForecastDemo.DataLayer.csproj" />
     <ProjectReference Include="..\WeatherForecastDemo.Model\WeatherForecastDemo.Model.csproj" />
   </ItemGroup>

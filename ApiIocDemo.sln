@@ -23,7 +23,7 @@ Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "AppIocDemo", "AppIocDemo", 
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "WeatherForecastDemo", "WeatherForecastDemo", "{F7CD0974-E6CC-4F0A-8BBD-D18F738BA856}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "WeatherForeCastDemo.BusinessLayer", "WeatherForeCastDemo.BusinessLayer\WeatherForeCastDemo.BusinessLayer.csproj", "{CA3D786D-AF93-46DB-8972-AA7EFBD5115B}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "WeatherForecastDemo.BusinessLayer", "WeatherForeCastDemo.BusinessLayer\WeatherForecastDemo.BusinessLayer.csproj", "{CA3D786D-AF93-46DB-8972-AA7EFBD5115B}"
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "WeatherForecastDemo.DataLayer", "WeatherForecastDemo.DataLayer\WeatherForecastDemo.DataLayer.csproj", "{A175E915-F214-47A3-B142-72B78B811FDF}"
 EndProject
